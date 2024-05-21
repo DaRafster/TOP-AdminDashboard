@@ -39,7 +39,6 @@ h1 {
 }
 
 .sidebar > div:not(:first-child) {
-    align-items: center;
     font-size: 22px;
     font-weight: 450;
     margin-left: 25px;
@@ -61,7 +60,8 @@ h1 {
 
 .options-1 > div, .options-2 > div {
     display: flex;
-    width: 100%;
+    cursor: pointer;
+    width: fit-content;
 }
 
 .options-1 > div > p, .options-2 > div > p {
